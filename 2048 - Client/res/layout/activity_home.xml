@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_vertical"
+    android:background="#1D88AF">
+
+   	<Button
+        android:id="@+id/button6"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/create_game"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/join_game"
+        android:textStyle="italic" />
+    
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/statistics"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/sign_out"
+        android:textStyle="italic" />
+
+</LinearLayout>

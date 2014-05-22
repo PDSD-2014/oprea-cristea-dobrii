@@ -1,0 +1,55 @@
+IP: 192.168.0.116
+Port: 25000
+
+
+Metode server:
+
+   * Sign in:
+   * 
+      * sign_in?user=iulian&pass=asd
+      * result nok: result=0
+      * result ok: result=1
+   * Sign up:
+   * 
+      * sign_up?user=iulian&pass=asd
+      * result nok: result=0
+      * result ok: result=1
+   * Sign out (inchid socket => server stie si face sign out)
+   * Get statistics:
+   * 
+      * get_statistics?user=“iulian”
+      * result nok: result=0
+      * result ok: result=1&total_games=“5”&total_moves=“10”&total_scor=“20”
+   * Create game:
+   * 
+      * create_game?user=“iulian”
+      * result nok: result=0
+      * result ok: result=1
+   * Players list
+   * 
+      * players_list=“iulian”&”paul”&”alex”
+   * Close game:
+   * 
+      * close_game?user=“iulian”
+   * server: game_closed_by_host
+   * Start game:
+   * 
+      * start_game?user=“iulian”
+      * result nok: result=0
+      * result ok: result=1
+   * Join game:
+   * 
+      * join_game?user=“iulian”
+      * result nok: result=0
+      * result ok: result=1
+   * Games list:
+   * 
+      * games_list=“host1”&”host2”
+   * Join host game
+   * 
+      * join_host_game?host=“host_name”
+      * result nok: result=0
+      * result ok: result=1
+   * Exit game:
+   * 
+      * exit_game?user=“iulian"

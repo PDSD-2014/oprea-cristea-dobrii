@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_vertical"
+    android:background="#1D88AF">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:text="@string/game_2048"
+        android:textAppearance="@style/AppBaseTheme"
+        android:textSize="60sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="@string/sign_in"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="@string/sign_up"
+        android:textStyle="italic" />
+
+</LinearLayout>
